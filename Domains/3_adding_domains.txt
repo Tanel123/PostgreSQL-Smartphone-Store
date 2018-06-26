@@ -1,0 +1,18 @@
+ALTER TABLE Kaup ALTER COLUMN kirjeldus TYPE d_kirjeldus;
+ALTER TABLE Amet ALTER COLUMN kirjeldus TYPE d_kirjeldus;
+
+ALTER TABLE Kauba_kategooria_tyyp ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Kaup_kategooria ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Tootaja_seisundi_liik ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Kauba_seisundi_liik ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Kliendi_seisundi_liik ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Isiku_seisundi_liik ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Brand ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Diagonaal ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Kaamera ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Ekraan_resolutsioon ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Protsessor ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Sisemalu ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Varv ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Amet ALTER COLUMN nimetus TYPE d_nimetus;
+ALTER TABLE Riik ALTER COLUMN nimetus TYPE d_nimetus;

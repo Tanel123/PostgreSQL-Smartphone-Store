@@ -1,0 +1,37 @@
+ALTER TABLE Kauba_kategooria_tyyp DROP CONSTRAINT chk_Kauba_kategooria_tyyp_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Kauba_kategooria_tyyp DROP CONSTRAINT chk_Kauba_kategooria_tyyp_nimetus_pole_tyhi_string;
+ALTER TABLE Kaup_kategooria DROP CONSTRAINT chk_Kauba_kategooria_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Kaup_kategooria DROP CONSTRAINT chk_Kauba_kategooria_nimetus_pole_tyhi_string;
+ALTER TABLE Isiku_seisundi_liik DROP CONSTRAINT chk_Isiku_seisundi_liik_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Isiku_seisundi_liik DROP CONSTRAINT chk_Isiku_seisundi_liik_nimetus_pole_tyhi_string;
+ALTER TABLE Kauba_seisundi_liik DROP CONSTRAINT chk_Kauba_seisundi_liik_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Kauba_seisundi_liik DROP CONSTRAINT chk_Kauba_seisundi_liik_nimetus_pole_tyhi_string;
+ALTER TABLE Kliendi_seisundi_liik DROP CONSTRAINT chk_Kliendi_seisundi_liik_nimetus_pole_tyhi_string;
+ALTER TABLE Kliendi_seisundi_liik DROP CONSTRAINT chk_Kliendi_seisundi_liik_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Tootaja_seisundi_liik DROP CONSTRAINT chk_Tootaja_seisundi_liik_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Tootaja_seisundi_liik DROP CONSTRAINT chk_Tootaja_seisundi_liik_nimetus_pole_tyhi_string;
+ALTER TABLE Brand DROP CONSTRAINT chk_Brand_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Brand DROP CONSTRAINT chk_Brand_nimetus_pole_tyhi_string;
+ALTER TABLE Diagonaal DROP CONSTRAINT chk_Diagonaal_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Diagonaal DROP CONSTRAINT chk_Diagonaal_nimetus_pole_tyhi_string;
+ALTER TABLE Ekraan_resolutsioon DROP CONSTRAINT chk_Ekraan_resolutsioon_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Ekraan_resolutsioon DROP CONSTRAINT chk_Ekraan_resolutsioon_nimetus_pole_tyhi_string;
+ALTER TABLE Kaamera DROP CONSTRAINT chk_Kaamera_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Kaamera DROP CONSTRAINT chk_Kaamera_nimetus_pole_tyhi_string;
+ALTER TABLE Protsessor DROP CONSTRAINT chk_Protsessor_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Protsessor DROP CONSTRAINT chk_Protsessor_nimetus_pole_tyhi_string;
+ALTER TABLE Sisemalu DROP CONSTRAINT chk_Sisemalu_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Sisemalu DROP CONSTRAINT chk_Sisemalu_nimetus_pole_tyhi_string;
+ALTER TABLE Varv DROP CONSTRAINT chk_Varv_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Varv DROP CONSTRAINT chk_Varv_nimetus_pole_tyhi_string;
+ALTER TABLE Amet DROP CONSTRAINT chk_Amet_nimetus_ei_koosne_tyhikutest;
+ALTER TABLE Amet DROP CONSTRAINT chk_Amet_nimetus_pole_tyhi_string;	
+ALTER TABLE Amet DROP CONSTRAINT chk_Amet_kirjeldus_ei_koosne_tyhikutest;	
+ALTER TABLE Amet DROP CONSTRAINT chk_Amet_kirjeldus_pole_tyhi_string;
+ALTER TABLE Riik DROP CONSTRAINT chk_Riik_nimetus_ei_koosne_tyhikutest;	
+ALTER TABLE Riik DROP CONSTRAINT chk_Riik_nimetus_pole_tyhi_string;
+ALTER TABLE Kaup DROP CONSTRAINT chk_Kaup_kirjeldus_ei_koosne_tyhikutest;
+ALTER TABLE Kaup DROP CONSTRAINT chk_Kaup_kirjeldus_pole_tyhi_string;	
+		
+
+
